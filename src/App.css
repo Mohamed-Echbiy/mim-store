@@ -9,8 +9,11 @@
   font-family: "Tajawal", sans-serif;
 }
 body {
-  background-color: rgb(239, 221, 221);
+  background-color: #f1d8d8;
 }
 .max-w-10xl {
-  max-width: 1520;
+  max-width: 1600px;
+}
+.navbar_hero_section {
+  background: linear-gradient(90deg, #f08e94 0%, #fff 30%);
 }

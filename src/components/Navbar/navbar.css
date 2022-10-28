@@ -11,7 +11,9 @@
   background-color: pink;
   transition: all ease-in-out 0.2s;
 }
-
+.navbar_container {
+  background-color: rgba(0, 0, 0, 0.006);
+}
 .navbar li:hover::after {
   width: 30%;
 }
