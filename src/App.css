@@ -10,10 +10,12 @@
 }
 body {
   background-color: #f1d8d8;
+  position: relative;
 }
-.max-w-10xl {
-  max-width: 1600px;
+
+.bg-gradient {
+  background: linear-gradient(90deg, #f08e94 0%, #fff 80%);
 }
-.navbar_hero_section {
-  background: linear-gradient(90deg, #f08e94 0%, #fff 30%);
+.zero_deg_gradient {
+  background: linear-gradient(0deg, #f08e94 0%, #fff 30%);
 }

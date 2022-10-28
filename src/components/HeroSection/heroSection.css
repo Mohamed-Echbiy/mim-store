@@ -1,4 +1,6 @@
 .hero_section {
+  min-height: calc(100vh - 64px);
+  margin-top: 62px;
 }
 .hero_section_paragraph {
   line-height: 2rem;

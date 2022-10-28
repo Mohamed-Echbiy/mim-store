@@ -3,7 +3,7 @@ import image from "../../images/3961975.png";
 
 function HeroSection() {
   return (
-    <div className="hero_section flex flex-wrap-reverse sm:flex-nowrap flex-row-reverse items-center justify-between">
+    <div className="hero_section flex flex-wrap-reverse sm:flex-nowrap  justify-center flex-row-reverse items-center sm:justify-around">
       <div className="hero_section_image">
         <img src={image} alt="person checking list of things she has to do" />
       </div>
