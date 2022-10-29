@@ -8,6 +8,7 @@ function App() {
     <Container>
       <div className="App relative min-h-screen mx-auto">
         <Navbar />
+        <HeroSection />
       </div>
     </Container>
   );

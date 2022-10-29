@@ -7,7 +7,7 @@ interface Container {
 function Container({ children, props }: Container) {
   return (
     <div
-      className={`px-1 sm:px-4 md:px-7 lg:px-10 xl:px-16 2xl:px-32 ${props}`}
+      className={`px-4 sm:px-7 md:px-12 lg:px-16 xl:px-22 2xl:px-32 ${props}`}
     >
       {children}
     </div>
