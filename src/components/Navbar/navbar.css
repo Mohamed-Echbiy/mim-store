@@ -1,38 +1,27 @@
-.navbar li {
+.links .link {
+  display: flex;
+  align-items: center;
   cursor: pointer;
+  font-weight: 500;
+  cursor: pointer;
+  text-transform: uppercase;
 }
-.navbar li::after {
-  position: absolute;
-  content: "";
-  width: 0%;
-  left: 0;
-  bottom: 0;
-  height: 2px;
-  background-color: pink;
-  transition: all ease-in-out 0.2s;
+.tab_name {
+  transition: all linear 0.3s;
 }
-.navbar_container {
-  background-color: #fff;
-  position: fixed;
-  left: 0;
-  top: 0;
-  width: 100%;
+.links .link:hover span svg {
+  transform: scale(1.2);
 }
-.navbar li:hover::after {
-  width: 30%;
+.links .link.active_tab span svg {
+  transform: scale(1.2);
 }
-.navbar li svg {
-  transition: all linear 0.2s;
+.width-0 {
+  width: 0px;
 }
-.navbar li:hover svg.services_icon {
-  transform: rotate(360deg) scale(1.1);
-  /* color: #ffc0cb; */
+.links .link span svg {
+  cursor: pointer;
+  transition: all ease 0.3s;
 }
-.navbar li:hover svg.home_icon {
-  transform: scale(1.1);
-  /* color: #ffc0cb; */
-}
-.navbar li:hover svg.about_icon {
-  transform: scale(1.5);
-  /* color: #ffc0cb; */
+.links .link.active_tab {
+  color: #a17d60;
 }

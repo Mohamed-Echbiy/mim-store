@@ -6,16 +6,4 @@
 * {
   list-style: none;
   box-sizing: border-box;
-  font-family: "Tajawal", sans-serif;
-}
-body {
-  background-color: #f1d8d8;
-  position: relative;
-}
-
-.bg-gradient {
-  background: linear-gradient(90deg, #f08e94 0%, #fff 80%);
-}
-.zero_deg_gradient {
-  background: linear-gradient(0deg, #f08e94 0%, #fff 30%);
 }
