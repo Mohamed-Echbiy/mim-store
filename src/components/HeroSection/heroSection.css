@@ -5,11 +5,17 @@
 .hero_image {
   width: 100%;
   /* background-color: black; */
-  background-image: url(../../../public/bigCover.webp);
+
   aspect-ratio: 5/4;
   background-size: cover;
   border-radius: 10px;
   background-position: center;
+}
+.image_bg {
+  background-image: url(../../../public/bigCover.webp);
+}
+.image_bg_2 {
+  background-image: url("../../../public/bigCover2.png");
 }
 
 @media (min-width: 640px) {
