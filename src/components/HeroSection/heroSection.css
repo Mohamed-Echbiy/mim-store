@@ -3,19 +3,19 @@
   min-height: fit-content;
 }
 .hero_image {
-  width: 100%;
   /* background-color: black; */
-
+  width: 100%;
   aspect-ratio: 5/4;
   background-size: cover;
   border-radius: 10px;
   background-position: center;
+  background-repeat: no-repeat;
 }
 .image_bg {
   background-image: url(../../../public/bigCover.webp);
 }
 .image_bg_2 {
-  background-image: url("../../../public/bigCover2.png");
+  background-image: url("../../../public/Banner.png");
 }
 
 @media (min-width: 640px) {
@@ -45,4 +45,68 @@
 }
 .text-inside {
   background-color: rgba(255, 255, 255, 0.623);
+}
+
+/* ? styling the discount button  */
+
+.discount {
+  position: relative;
+  border: none;
+  outline: none;
+  box-shadow: rgba(0, 0, 0, 0.34) 0px 3px 8px;
+  transition: all ease-in-out 0.3s;
+}
+.discount:hover {
+  box-shadow: none;
+  transform: scale(0.99);
+}
+/* .discount::after,
+.discount::before,
+.discount_off::after,
+.discount_off::before {
+  position: absolute;
+  content: "";
+  width: 0px;
+  height: 2px;
+  background-color: #fff;
+  transition: all ease-in-out 0.3s;
+}
+.discount::before,
+.discount_off::after {
+  bottom: 0;
+  right: 0;
+}
+.discount::after,
+.discount_off::before {
+  top: 0;
+  left: 0;
+}
+
+.discount:hover:after,
+.discount:hover:before {
+  width: 100%;
+}
+.discount_off::after,
+.discount_off::before {
+  width: 2px;
+  height: 0;
+}
+.discount:hover .discount_off::after,
+.discount:hover .discount_off::before {
+  height: 100%;
+} */
+
+.discount::after {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 0px;
+  background-color: rgba(93, 247, 93, 0.733);
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: all 0.3s 0.1s ease-in-out;
+}
+.discount:hover::after {
+  width: 100%;
 }

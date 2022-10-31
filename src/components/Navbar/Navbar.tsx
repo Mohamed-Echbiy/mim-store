@@ -4,10 +4,10 @@ import Container from "../common/Container";
 import "./navbar.css";
 
 function Navbar() {
-  const [active, setActive] = useState(0);
+  const [active, setActive] = useState(1);
   return (
-    <Container props="fixed top-0 left-0 w-full bg-white">
-      <div className="navbar_container py-4 flex-col md:flex-row flex items-center">
+    <Container props="fixed top-0 left-0 w-full bg-white z-10">
+      <div className="navbar_container py-4 flex-col md:flex-row flex items-center ">
         <div className="logo w-40 mx-auto mb-4 md:mb-0 ">
           <img src="./logo.png" alt="mim store" className="w-full" />
         </div>
