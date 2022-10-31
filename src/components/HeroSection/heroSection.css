@@ -14,8 +14,9 @@
 .image_bg {
   background-image: url(../../../public/bigCover.webp);
 }
+
 .image_bg_2 {
-  background-image: url("../../../public/Banner.png");
+  background-image: url("../../../public/Banner.webp");
 }
 
 @media (min-width: 640px) {
