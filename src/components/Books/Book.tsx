@@ -32,11 +32,11 @@ function Book({
   setModule,
 }: book) {
   // calcluting the price after discount
-  const [priceAfterDisc, setPrice] = useState(0);
+  const [priceAfterDisc, setPrice] = useState("");
   if (isDiscount?.state && !priceAfterDisc) {
     const discountAmount = (isDiscount.discount / 100) * price;
     console.log(discountAmount, "iam discount amount");
-    setPrice(() => Math.round(price - discountAmount));
+    setPrice(() => (price - discountAmount).toFixed(1));
     console.log("i do it ");
   }
   console.log(priceAfterDisc, "iam state");

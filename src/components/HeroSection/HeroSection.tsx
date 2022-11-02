@@ -39,7 +39,7 @@ function HeroSection({
             </h1>
             <button className="discount mt-5 md:mt-10 block w-full py-1 px-6 md:py-2 md:px-10 bg-red-400 rounded-sm font-bold">
               <span className="discount_off text-gray-800 w-full block text-xs sm:text-sm md:text-base">
-                53% OFF
+                41% OFF
               </span>
             </button>
           </div>
