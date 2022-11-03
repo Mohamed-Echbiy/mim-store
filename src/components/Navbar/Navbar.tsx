@@ -24,7 +24,7 @@ function Navbar() {
                 active === 1 ? " w-20" : "w-0"
               } overflow-hidden sm:w-fit text-sm md:text-base`}
             >
-              <a href="#Home">Home</a>
+              <a href="#">Home</a>
             </span>
           </li>
           <li

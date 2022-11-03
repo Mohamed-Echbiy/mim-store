@@ -69,7 +69,7 @@ function Book({
           </Swiper>
         </div>
         <div className="information flex-grow w-8/12">
-          <h3 className="book_title text-xl text-center mt-5 xl:mt-0 xl:text-left md:text-3xl text-gray-700 pb-10 capitalize w-full border-b border-solid">
+          <h3 className="book_title text-xl ml-1 text-center mt-5 xl:mt-0 xl:text-left md:text-3xl text-gray-700 pb-10 capitalize w-full border-b border-solid">
             {title}
           </h3>
           <p className="book_price my-4">

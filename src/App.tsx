@@ -1,4 +1,5 @@
 import "./App.css";
+import AboutUs from "./components/About/AboutUs";
 import Books from "./components/Books/Books";
 import Container from "./components/common/Container";
 import Navbar from "./components/Navbar/Navbar";
@@ -11,6 +12,7 @@ function App() {
         <Navbar />
         <Slider />
         <Books />
+        <AboutUs />
       </div>
     </Container>
   );
