@@ -1,0 +1,14 @@
+.bg-instagram {
+  background: linear-gradient(90deg, #ff512f 40%, #dd2476 100%);
+  color: white;
+}
+.bg-tiktok {
+  background: linear-gradient(90deg, #868f96 40%, #596164 100%);
+  color: white;
+}
+.bg-facebook {
+  background: linear-gradient(90deg, #4e65ff 40%, #92effd 100%);
+}
+.bg-whatsapp {
+  background: linear-gradient(90deg, #11998e 30%, #38ef7d 100%);
+}

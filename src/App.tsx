@@ -4,6 +4,8 @@ import Books from "./components/Books/Books";
 import Container from "./components/common/Container";
 import Navbar from "./components/Navbar/Navbar";
 import Slider from "./components/Slider/Slider";
+import Card from "./components/SocialMedia/Card";
+import SocilaMedia from "./components/SocialMedia/SocilaMedia";
 
 function App() {
   return (
@@ -13,6 +15,7 @@ function App() {
         <Slider />
         <Books />
         <AboutUs />
+        <SocilaMedia />
       </div>
     </Container>
   );
