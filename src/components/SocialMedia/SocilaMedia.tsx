@@ -30,7 +30,7 @@ function SocilaMedia() {
         Icon={<Whatsapp />}
         platformName="Whatsapp"
       /> */}
-      <div className="media_container flex justify-between items-center max-w-xl md:px-8 py-4 mx-auto rounded-t-3xl ">
+      <div className="media_container flex  justify-around md:justify-between items-center max-w-xl md:px-8 py-4 mx-auto rounded-t-3xl ">
         <div className="icon text-pink-400 w-1/5">
           <a
             href="https://www.instagram.com/maryam_bougari/"
@@ -38,7 +38,7 @@ function SocilaMedia() {
             rel="noopener noreferrer"
           >
             <Instagram />
-            <p className=" py-1 rounded-md bg-white text-xs md:text-base">
+            <p className=" py-1 rounded-md bg-white text-xs md:text-base hidden md:block">
               Follow me
             </p>
           </a>
@@ -50,7 +50,7 @@ function SocilaMedia() {
             rel="noopener noreferrer"
           >
             <Facebook />
-            <p className=" py-1 rounded-md bg-white text-xs md:text-base">
+            <p className=" py-1 rounded-md bg-white text-xs md:text-base hidden md:block ">
               Follow me
             </p>
           </a>
@@ -62,7 +62,7 @@ function SocilaMedia() {
             rel="noopener noreferrer"
           >
             <Whatsapp />
-            <p className=" py-1 rounded-md bg-white text-xs md:text-base">
+            <p className=" py-1 rounded-md bg-white text-xs md:text-base hidden md:block">
               Contact me
             </p>
           </a>
@@ -70,7 +70,7 @@ function SocilaMedia() {
         <div className="icon w-1/5">
           <a href="#" target="_blank" rel="noopener noreferrer">
             <Tiktok />
-            <p className=" py-1 rounded-full bg-white text-xs md:text-base">
+            <p className=" py-1 rounded-full bg-white text-xs md:text-base hidden md:block">
               Follow me
             </p>
           </a>
